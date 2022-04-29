@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>B2A02作業7</title>
+    <style>
+		div {
+			margin: 15px;
+			text-align: justify;
+			line-height: 30px;
+		}
+		h2 {
+			color: #caa940;
+		}
+		h3 {
+			color: blue;
+
+		}
+		table {
+		    width: 90%;
+		    border-color: dodgerblue;
+		    border-collapse: collapse;
+		    border-style:solid;
+		}
+		th {
+		    text-align: center;
+		    border-color: dodgerblue;
+		    border-style:solid;
+		}
+		tr {
+		    text-align: center;
+		    border-color: dodgerblue;
+		    border-style:solid;
+		}
+		td {
+		    vertical-align: middle;
+		    border-color: dodgerblue;
+		    border-style: solid;
+		}
+	</style>
+</head>
+<body>
+    <script>
+           document.write("<div>九九乘法表</div>");
+
+           function nTimesNtable(n){
+        for (i=1;i<=n;i++){
+            for (j=1;j<=n;j++){
+                document.write(i + "X" + j + "=" + i*j + "  ");
+            }
+            document.write("<br>");
+        }
+    }
+    nTimesNtable(9);
+    </script>
+</body>
+</html>
